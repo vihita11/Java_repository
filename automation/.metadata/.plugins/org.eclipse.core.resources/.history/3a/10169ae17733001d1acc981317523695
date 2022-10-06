@@ -1,0 +1,16 @@
+package javaPackage;
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+		// TODO create, assign variable, icrement and decrement values, and print values
+		int var= 10;
+		int varIncrement= ++var;
+		int varDecrement= var--;
+		
+		System.out.println("The variable increased is: "+ varIncrement);
+		System.out.print("The variable decreased is: "+ varDecrement);
+
+	}
+
+}
